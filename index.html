@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <title>SHER KHAN | Cricket Insights</title>
+  <meta name="description" content="Join SHER KHAN for cricket match previews, analysis and tipping insights.">
+  <!-- Meta Pixel: paste your Pixel ID into the setup instructions before publishing. -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  -->
+  <style>
+    :root { --gold:#e8bd5a; --gold2:#f7df9a; --bg:#080808; --muted:#bcb8af; --panel:#121212; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:#fff; font-family:Inter,Arial,Helvetica,sans-serif; }
+    a { color:inherit; }
+    .page { overflow:hidden; }
+    .topbar { display:flex; align-items:center; justify-content:space-between; gap:16px; max-width:1120px; margin:auto; padding:22px 24px; }
+    .brand { display:flex; align-items:center; gap:11px; font-weight:900; letter-spacing:2px; }
+    .brand-mark { width:40px; height:40px; border:1px solid var(--gold); color:var(--gold); display:grid; place-items:center; border-radius:50%; font-size:20px; }
+    .brand small { display:block; color:#aaa; font-size:9px; letter-spacing:3px; margin-top:4px; }
+    .top-cta { border:1px solid #8e6a25; color:var(--gold2); border-radius:999px; padding:11px 17px; text-decoration:none; font-weight:800; font-size:13px; }
+    .hero { position:relative; isolation:isolate; min-height:630px; display:flex; align-items:center; }
+    .hero:before { content:""; position:absolute; inset:0; z-index:-2; background:radial-gradient(ellipse at 75% 48%,rgba(204,145,34,.20),transparent 38%), linear-gradient(100deg,#080808 5%,rgba(8,8,8,.94) 42%,rgba(8,8,8,.44) 100%); }
+    .hero:after { content:""; position:absolute; inset:0; z-index:-3; background:
+      radial-gradient(circle at 78% 35%,rgba(255,208,105,.18),transparent 3%),
+      radial-gradient(circle at 72% 58%,rgba(255,184,61,.12),transparent 20%),
+      linear-gradient(135deg,#111 0%,#080808 52%,#1b1307 100%); }
+    .hero-inner { width:100%; max-width:1120px; margin:auto; padding:72px 24px 90px; display:grid; grid-template-columns:1.1fr .9fr; align-items:center; gap:32px; }
+    .eyebrow { color:var(--gold); letter-spacing:4px; text-transform:uppercase; font-size:11px; font-weight:900; }
+    h1 { margin:18px 0 14px; max-width:650px; font-size:clamp(46px,7vw,86px); line-height:.94; letter-spacing:-3px; font-weight:950; }
+    h1 span { color:var(--gold); display:block; }
+    .intro { color:#d0cdc6; line-height:1.7; font-size:17px; max-width:520px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:10px; min-height:52px; padding:15px 23px; border-radius:8px; text-decoration:none; font-weight:900; font-size:14px; transition:transform .2s,filter .2s; }
+    .btn:hover { transform:translateY(-2px); filter:brightness(1.08); }
+    .btn-gold { background:linear-gradient(135deg,var(--gold2),#d9a63b); color:#171106; box-shadow:0 8px 28px #d9a63b26; }
+    .btn-outline { border:1px solid #5d502f; color:#f1dfb1; }
+    .micro { margin-top:14px; color:#89857c; font-size:11px; line-height:1.5; }
+    .visual { min-height:380px; display:grid; place-items:center; position:relative; }
+    .orbit { width:min(360px,82vw); aspect-ratio:1; border:1px solid #b18a3a70; border-radius:50%; display:grid; place-items:center; position:relative; box-shadow:0 0 80px #d9a63b12,inset 0 0 65px #d9a63b0b; }
+    .orbit:before,.orbit:after { content:""; position:absolute; border:1px solid #b18a3a45; border-radius:50%; }
+    .orbit:before { inset:22px; } .orbit:after { inset:47px; }
+    .tiger { font-size:clamp(115px,18vw,190px); filter:drop-shadow(0 12px 35px #e0a22c38); position:relative; z-index:1; }
+    .orbit-label { position:absolute; bottom:14px; left:50%; transform:translateX(-50%); color:var(--gold2); font-size:10px; letter-spacing:4px; white-space:nowrap; font-weight:900; }
+    .strip { border-top:1px solid #28231a; border-bottom:1px solid #28231a; background:#0e0d0b; }
+    .strip-inner { max-width:1120px; margin:auto; padding:19px 24px; display:flex; justify-content:center; flex-wrap:wrap; gap:13px 30px; color:#d9d0bc; font-size:11px; font-weight:800; letter-spacing:1.5px; text-transform:uppercase; }
+    .strip-inner span:before { content:"✦"; color:var(--gold); margin-right:9px; }
+    section.content { max-width:1120px; margin:auto; padding:82px 24px; }
+    .section-head { text-align:center; max-width:650px; margin:0 auto 38px; }
+    h2 { font-size:clamp(28px,4vw,44px); letter-spacing:-1px; margin:12px 0; }
+    .section-head p { color:var(--muted); line-height:1.7; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .card { border:1px solid #2a261d; background:linear-gradient(145deg,#151410,#0d0d0d); border-radius:14px; padding:25px; }
+    .icon { width:44px; height:44px; display:grid; place-items:center; border-radius:10px; background:#d6a63a17; border:1px solid #d6a63a45; color:var(--gold); font-size:21px; }
+    .card h3 { margin:18px 0 9px; font-size:18px; }
+    .card p { margin:0; color:#aaa69d; font-size:14px; line-height:1.7; }
+    .join-panel { max-width:1072px; margin:0 auto 80px; padding:48px 24px; text-align:center; border:1px solid #5d4820; border-radius:18px; background:radial-gradient(ellipse at top, #3a2b11 0%, #14110a 43%, #0c0c0c 100%); }
+    .join-panel p { color:#c7c0b1; line-height:1.7; max-width:600px; margin:0 auto 23px; }
+    .disclaimer { max-width:850px; margin:0 auto; padding:0 24px 30px; text-align:center; color:#827e75; font-size:11px; line-height:1.7; }
+    footer { border-top:1px solid #211e18; color:#77736b; padding:23px 24px; text-align:center; font-size:11px; }
+    @media (max-width:760px) {
+      .topbar { padding:17px 18px; } .brand { letter-spacing:1px; } .top-cta { padding:10px 12px; font-size:11px; }
+      .hero { min-height:auto; } .hero-inner { grid-template-columns:1fr; padding:58px 22px 54px; gap:10px; }
+      h1 { letter-spacing:-2px; font-size:clamp(48px,14vw,72px); }
+      .intro { font-size:15px; } .visual { min-height:260px; margin-top:0; }
+      .orbit { width:245px; } .tiger { font-size:130px; }
+      .strip-inner { gap:12px 18px; font-size:9px; }
+      section.content { padding:60px 20px; } .cards { grid-template-columns:1fr; }
+      .card { padding:22px; } .join-panel { margin:0 16px 55px; padding:37px 20px; }
+      .actions .btn { width:100%; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <header class="topbar">
+    <a href="#" class="brand" style="text-decoration:none" aria-label="SHER KHAN home">
+      <span class="brand-mark">SK</span>
+      <span>SHER KHAN<small>CRICKET INSIGHTS</small></span>
+    </a>
+    <a class="top-cta" href="https://t.me/+ruW_tZUux5FmMWNl" target="_blank" rel="noopener">JOIN TELEGRAM ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">For the love of the game</div>
+          <h1>READ THE GAME.<span>THINK SHARP.</span></h1>
+          <p class="intro">Step into SHER KHAN for cricket match previews, match analysis and tipping insights — made for fans who love looking beyond the scoreboard.</p>
+          <div class="actions">
+            <a class="btn btn-gold" href="https://t.me/+ruW_tZUux5FmMWNl" target="_blank" rel="noopener">➤ &nbsp; JOIN SHER KHAN</a>
+            <a class="btn btn-outline" href="#insights">EXPLORE INSIGHTS ↓</a>
+          </div>
+          <p class="micro">Independent cricket insights. No guaranteed outcomes. Please follow local laws and make responsible choices.</p>
+        </div>
+        <div class="visual" aria-label="Tiger-inspired SHER KHAN branding">
+          <div class="orbit">
+            <div class="tiger" aria-hidden="true">🐅</div>
+            <div class="orbit-label">FOCUS • STRATEGY • CRICKET</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="strip">
+      <div class="strip-inner"><span>Match previews</span><span>Cricket analysis</span><span>Tipping insights</span></div>
+    </div>
+
+    <section class="content" id="insights">
+      <div class="section-head">
+        <div class="eyebrow">Inside the channel</div>
+        <h2>MORE THAN A SCORECARD</h2>
+        <p>Follow the match story with thoughtful cricket content, clear context and a community of fans.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🏏</div>
+          <h3>Match Previews</h3>
+          <p>Explore upcoming fixtures, team context and key talking points before the first ball.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📊</div>
+          <h3>Game Analysis</h3>
+          <p>Consider form, conditions and match dynamics through cricket-focused analysis.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🎯</div>
+          <h3>Tipping Insights</h3>
+          <p>Get considered opinions and discussion — not promises, fixed results or guaranteed wins.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="join-panel">
+      <div class="eyebrow">Your next cricket conversation starts here</div>
+      <h2>JOIN THE SHER KHAN COMMUNITY</h2>
+      <p>Get connected on Telegram for cricket previews, analysis and tipping insights.</p>
+      <a class="btn btn-gold" href="https://t.me/+ruW_tZUux5FmMWNl" target="_blank" rel="noopener">JOIN ON TELEGRAM ↗</a>
+    </section>
+
+    <p class="disclaimer">SHER KHAN provides cricket-related commentary and opinions for informational and entertainment purposes. Predictions are uncertain and outcomes are never guaranteed. This page does not encourage unlawful gambling. Please check the laws that apply where you live and engage responsibly.</p>
+  </main>
+  <footer>© <span id="year">2026</span> SHER KHAN · Cricket Insights</footer>
+</div>
+</body>
+</html>
